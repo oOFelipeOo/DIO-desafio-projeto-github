@@ -1,0 +1,47 @@
+Dia 1 - Fundamentos e Sintaxe Basica (Java Back-End)
+
+Objetivo do dia:
+- Garantir que o ambiente Java esta funcionando (JDK + VS Code ou IntelliJ).
+- Treinar leitura de dados com Scanner.
+- Trabalhar tipos primitivos (int, double, String, boolean) e operacoes matematicas basicas.
+- Aprender System.out.printf (formatacao de saida).
+
+Parte 1 - Aquecimento
+
+Exercicio 1 - Ola, mundo personalizado
+1. Leia o nome e a idade do usuario.
+2. Imprima a mensagem:
+   Ola, [nome]! Voce tem [idade] anos.
+
+Exercicio 2 - Calculadora simples
+1. Peca dois numeros.
+2. Calcule soma, subtracao, multiplicacao e divisao.
+3. Mostre o resultado formatado com 2 casas decimais.
+
+Parte 2 - Operadores e logica
+
+Exercicio 3 - Calculo de media
+1. Peca 3 notas de um aluno.
+2. Calcule a media.
+3. Mostre:
+   - "Aprovado" se media >= 7
+   - "Recuperacao" se entre 5 e 6.9
+   - "Reprovado" se < 5
+
+Exercicio 4 - Conversor de temperatura
+1. Peca uma temperatura em Celsius.
+2. Converta para Fahrenheit: F = (C * 9/5) + 32
+3. Exiba o resultado com 1 casa decimal.
+
+Desafio Extra - Calculadora de Idade Futura
+1. Leia o nome e a idade da pessoa.
+2. Pergunte quantos anos no futuro quer ver.
+3. Mostre: Daqui a X anos, [nome] tera [idade + X] anos.
+
+Checklist do Dia 1:
+- JDK e IDE configurados
+- Programa "Ola, mundo" funcionando
+- Leitura de dados com Scanner
+- Uso de operadores e if/else
+- Impressao formatada com System.out.printf
+- Todos os exercicios testados e comentados
