@@ -17,7 +17,7 @@ public class Exercicio01 {
         // TODO: Imprima a mensagem: Ola, [nome]! Voce tem [idade] anos.
         // Dica: use System.out.printf("Ola, %s! Voce tem %d anos.%n", nome, idade);
 
-        System.err.printf("Ola, %s! Voce tem %d anos.%n", nome, idade);
+        System.out.printf("Ola, %s! Voce tem %d anos.%n", nome, idade);
 
         scanner.close();
     }
