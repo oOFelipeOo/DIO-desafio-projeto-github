@@ -1,47 +1,47 @@
-Dia 1 - Fundamentos e Sintaxe Basica (Java Back-End)
+Dia 1 – Fundamentos e Sintaxe Básica (Java Back-End)
 
 Objetivo do dia:
-- Garantir que o ambiente Java esta funcionando (JDK + VS Code ou IntelliJ).
+- Garantir que o ambiente Java está funcionando (JDK + VS Code ou IntelliJ).
 - Treinar leitura de dados com Scanner.
-- Trabalhar tipos primitivos (int, double, String, boolean) e operacoes matematicas basicas.
-- Aprender System.out.printf (formatacao de saida).
+- Trabalhar tipos primitivos (int, double, String, boolean) e operações matemáticas básicas.
+- Aprender System.out.printf (formatação de saída).
 
-Parte 1 - Aquecimento
+Parte 1 – Aquecimento
 
-Exercicio 1 - Ola, mundo personalizado
-1. Leia o nome e a idade do usuario.
+Exercício 1 – Olá, mundo personalizado
+1. Leia o nome e a idade do usuário.
 2. Imprima a mensagem:
-   Ola, [nome]! Voce tem [idade] anos.
+   Olá, [nome]! Você tem [idade] anos.
 
-Exercicio 2 - Calculadora simples
-1. Peca dois numeros.
-2. Calcule soma, subtracao, multiplicacao e divisao.
+Exercício 2 – Calculadora simples
+1. Peça dois números.
+2. Calcule soma, subtração, multiplicação e divisão.
 3. Mostre o resultado formatado com 2 casas decimais.
 
-Parte 2 - Operadores e logica
+Parte 2 – Operadores e lógica
 
-Exercicio 3 - Calculo de media
-1. Peca 3 notas de um aluno.
-2. Calcule a media.
+Exercício 3 – Cálculo de média
+1. Peça 3 notas de um aluno.
+2. Calcule a média.
 3. Mostre:
-   - "Aprovado" se media >= 7
-   - "Recuperacao" se entre 5 e 6.9
+   - "Aprovado" se média >= 7
+   - "Recuperação" se entre 5 e 6.9
    - "Reprovado" se < 5
 
-Exercicio 4 - Conversor de temperatura
-1. Peca uma temperatura em Celsius.
+Exercício 4 – Conversor de temperatura
+1. Peça uma temperatura em Celsius.
 2. Converta para Fahrenheit: F = (C * 9/5) + 32
 3. Exiba o resultado com 1 casa decimal.
 
-Desafio Extra - Calculadora de Idade Futura
+Desafio Extra – Calculadora de Idade Futura
 1. Leia o nome e a idade da pessoa.
 2. Pergunte quantos anos no futuro quer ver.
-3. Mostre: Daqui a X anos, [nome] tera [idade + X] anos.
+3. Mostre: Daqui a X anos, [nome] terá [idade + X] anos.
 
 Checklist do Dia 1:
 - JDK e IDE configurados
-- Programa "Ola, mundo" funcionando
+- Programa "Olá, mundo" funcionando
 - Leitura de dados com Scanner
 - Uso de operadores e if/else
-- Impressao formatada com System.out.printf
-- Todos os exercicios testados e comentados
+- Impressão formatada com System.out.printf
+- Todos os exercícios testados e comentados

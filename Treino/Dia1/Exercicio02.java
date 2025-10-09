@@ -4,14 +4,21 @@ public class Exercicio02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // TODO: Leia dois numeros de ponto flutuante (double).
-        // TODO: Calcule a soma, subtracao, multiplicacao e divisao (numero1 / numero2).
-        // TODO: Use System.out.printf para exibir cada resultado com 2 casas decimais.
-        // Exemplo de saida esperada:
-        // Soma: 10.00
-        // Subtracao: 2.00
-        // Multiplicacao: 24.00
-        // Divisao: 1.50
+        System.out.print("Digite o primeiro numero: ");
+        double numero1 = scanner.nextDouble();
+
+        System.out.print("Digite o segundo numero: ");
+        double numero2 = scanner.nextDouble();
+
+        double soma = numero1 + numero2;
+        double subtracao = numero1 - numero2;
+        double multiplicacao = numero1 * numero2;
+        double divisao = numero1 / numero2;
+
+        System.out.printf("Soma: %.2f%n", soma);
+        System.out.printf("Subtracao: %.2f%n", subtracao);
+        System.out.printf("Multiplicacao: %.2f%n", multiplicacao);
+        System.out.printf("Divisao: %.2f%n", divisao);
 
         scanner.close();
     }

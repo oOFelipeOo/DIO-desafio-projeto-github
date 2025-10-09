@@ -4,13 +4,25 @@ public class Exercicio03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // TODO: Leia tres notas (double) do aluno.
-        // TODO: Calcule a media aritmetica das notas.
-        // TODO: Exiba a media com uma casa decimal usando System.out.printf.
-        // TODO: Imprima a classificacao:
-        //  - "Aprovado" se media >= 7
-        //  - "Recuperacao" se media >= 5 e < 7
-        //  - "Reprovado" se media < 5
+        System.out.print("Primeira nota: ");
+        double nota1 = scanner.nextDouble();
+
+        System.out.print("Segunda nota: ");
+        double nota2 = scanner.nextDouble();
+
+        System.out.print("Terceira nota: ");
+        double nota3 = scanner.nextDouble();
+
+        double media = (nota1 + nota2 + nota3) / 3;
+        System.out.printf("Media: %.1f%n", media);
+
+        if (media >= 7) {
+            System.out.println("Aprovado");
+        } else if (media >= 5) {
+            System.out.println("Recuperacao");
+        } else {
+            System.out.println("Reprovado");
+        }
 
         scanner.close();
     }

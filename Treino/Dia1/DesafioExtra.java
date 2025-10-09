@@ -4,11 +4,17 @@ public class DesafioExtra {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // TODO: Leia o nome do usuario (String) e a idade atual (int).
-        // TODO: Leia quantos anos no futuro deseja calcular (int).
-        // TODO: Calcule a idade futura somando idadeAtual + anosFuturos.
-        // TODO: Exiba a mensagem: Daqui a X anos, [nome] tera Y anos.
-        // Sugestao: use printf para formatar a mensagem final.
+        System.out.print("Digite seu nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.print("Digite sua idade atual: ");
+        int idadeAtual = scanner.nextInt();
+
+        System.out.print("Quantos anos no futuro você quer calcular? ");
+        int anosNoFuturo = scanner.nextInt();
+
+        int idadeFutura = idadeAtual + anosNoFuturo;
+        System.out.printf("Daqui a %d anos, %s terá %d anos.%n", anosNoFuturo, nome, idadeFutura);
 
         scanner.close();
     }
