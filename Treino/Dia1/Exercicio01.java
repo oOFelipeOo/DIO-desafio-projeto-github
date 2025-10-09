@@ -10,7 +10,7 @@ public class Exercicio01 {
         System.out.print("Digite sua idade: ");
         int idade = scanner.nextInt();
 
-        System.out.printf("Ola, %s! Voce tem %d anos.%n", nome, idade);
+        System.out.printf("Olá, %s! Você tem %d anos.%n", nome, idade);
 
         scanner.close();
     }
